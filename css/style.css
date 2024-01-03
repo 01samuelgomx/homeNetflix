@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Inter:wght@200&display=swap");
+* {
+  font-family: "inter" !important;
+}
+.site {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: none;
+}
+header {
+  margin-top: 2em;
+}
+.txt {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu div {
+  display: flex;
+  align-items: center;
+}
+.menu div p {
+  color: #c8c8c8;
+  font-weight: 600;
+}
+/*----------------------*/
+/*---------Corpo--------*/
+/*----------------------*/
+.container h1 {
+  font-size: 4.8em;
+  color: #ffffff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-text-stroke-width: 8px; /* largura da borda */
+  -webkit-text-stroke-color: #ffffff; /* cor da borda */
+}
+.container ul {
+  display: flex;
+  margin-top: 5em;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+.container div h2 {
+  color: #c8c8c8;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+.container div p {
+  color: #c8c8c8;
+  font-size: 1.2em;
+  text-align: left;
+  width: 65%;
+}
+.container ul li {
+  margin-left: 1em;
+}
+/*-----------------------*/
+/*--------Botoes---------*/
+/*-----------------------*/
+.botoes {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.play-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 5em;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  color: #ffffff;
+  width: 272px;
+  height: 64px;
+  background: #d50d1f;
+  border-radius: 10px;
+}
+.ep-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #ffffff;
+  width: 271px;
+  height: 64px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+}
+/*-----------------------*/
+/*--------Serie---------*/
+/*-----------------------*/
+.serie div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.serie div h2{
+  color: #ffffff;
+  font-weight: 600;
+}
+.poster {
+  display: flex;
+}
+.poster div:hover{
+  padding: 5px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+}
